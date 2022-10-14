@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Group members</title>
+    <link rel="styleSheet" href="mystyles.css">
+</head>
+
+<body>
+
+    <h2>Group settings</h2>
+    
+
+    <p id="noMembers"></p>
+
+    <p id="settingsDescription">Choose which attribute you want 
+        the groups to be divided by:</p>
+
+    <form id="groupSetting">
+        <p> 
+            <input type="radio" name=" attribute" id="attribute1" value="age">
+            <label for="attribute1">Age</label></p>
+        <p>
+            <input type="radio" name=" attribute" id="attribute2" value="colourType">
+            <label for="attribute2">Personality type</label></p>
+        <p>
+            <input type="radio" name=" attribute" id="attribute3" value="workStatus"> 
+            <label for="attribute3">Work status</label></p>   
+        <p>
+            <input type="radio" name=" attribute" id="attribute4" value="relationshipStatus"> 
+            <label for="attribute4">Relationship status</label></p>  
+        <p>
+            <input type="radio" name=" attribute" id="attribute5" value="familyStatus"> 
+            <label for="attribute4">Family status</label></p>  
+        <p> 
+            <p id="settingsDescription">Choose how many people should be 
+                in each group:</p>
+            <input type="number" name="grouping" id="grouping" min="2" max="halfMembers">
+        </p>
+        
+        <input id="createGroups" type="submit" value="Create Groups">
+    </form>
+
+    <p id="outputMessage"></p>
+
+    <p><button id="showGroups">Show groups</button>  
+
+    <button id="showGroup">Show group</button><input type="number" 
+        name="groupNumber" id="groupNumber" min="1" max="noOfGroups" 
+        placeholder="index"></p>
+
+    <p id="output"></p>
+
+    <p>
+        <a href="index.html">
+        <button>Return to main page</button>
+        </a></p>
+   
+
+   
+
+<script src="js/grouping.js"></script>
+</body>
+</html>

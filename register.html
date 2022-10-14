@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Registration form</title>
+    <link rel="styleSheet" href="mystyles.css">
+</head>
+
+<body>
+
+    <h2>Register new member</h2>
+
+    <p id="output"></p>
+
+    <form id="member"></form>
+    <!-- <label for="firstName">First Name</label> -->
+    <p><input type="text" name="firstName" id="firstName" placeholder="First Name"
+    oninvalid="invalidInput(this);" oninput="invalidInput(this);" required="required"></p>
+
+    <!-- <p><label for="surname">Surname</label></p> -->
+    <p><input type="text" name="surname" id="surname" placeholder="Surname"
+        oninvalid="invalidInput(this);"  oninput="invalidInput(this);"></p>
+
+    <!-- <p><label for="email">E-mail</label></p> -->
+    <p><input type="email" name="email" id="email" placeholder="E-mail"
+        oninvalid="invalidInput(this);"  oninput="invalidInput(this);"></p>
+
+    <p><label for="birthDate">Date of birth</label></p> 
+    <input type="date" name="birthDate" id="birthDate" required>
+
+    <p><label for="personalityType">Personality Type</label></p>
+    <select name="personalityType" id="personalityType" required>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+
+    <p><label for="hasJob">Do you work?</label></p>
+    <select name="hasJob" id="hasJob" required>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <p><label for="relationshipStatus">Relationship Status</label></p> 
+    <select name="relationshipStatus" id="relationshipStatus" required>
+        <option value="single">Single</option>
+        <option value="inARelationship">In a relationship</option>
+        <option value="engaged">Engaged</option>
+        <option value="married">Married</option>
+        <option value="separated">Separated</option>
+        <option value="divorced">divorced</option>
+        <option value="widowed">Widowed</option>
+    </select>
+
+    <p><label for="hasChildren">Do you have children?</label></p> 
+    <p><select name="hasChildren" id="hasChildren">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select></p>
+
+    <input id="registerMember" type="submit" value="Submit">
+    </form>
+
+    <a href="index.html">
+        <button>Return to main page</button>
+    </a>
+    
+
+    <p id="formMsgFalse"></p>
+    <p id="formMsgTrue" onselect="addMember()"></p>
+
+    
+
+<script src="js/script.js"></script>
+</body>
+</html>

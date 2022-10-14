@@ -1,0 +1,112 @@
+body {
+    background-color: linen;
+    margin-inline: 50px;
+  }
+  
+  h1 {
+    color: rgb(34, 67, 34);
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(34, 67, 34);
+    
+  }
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(55, 86, 49); 
+   
+}
+#defineProblem {
+    color: rgb(20, 68, 25);
+    text-align: justify;
+}
+
+#settingsDescription {
+    color: rgb(20, 68, 25);
+    text-align: justify;
+    width: 240px;
+    font-weight: bold;
+}
+
+label {
+    color: rgb(20, 68, 25);
+    font-weight: bold;
+}
+label[type="radio"] {
+    color: rgb(20, 68, 25);
+  
+}
+input[type="email"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 120px;
+    color: rgb(20, 68, 25);
+}
+input[type="text"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 120px;
+    color: rgb(20, 68, 25);
+}
+input[type="submit"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 70px;
+    color: rgb(20, 68, 25);
+}
+input[id="grouping"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 50px;
+    color: rgb(20, 68, 25);
+}
+input[id="createGroups"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 110px;
+    color: rgb(20, 68, 25);
+    
+}
+
+#groupNumber {
+    background-color:white;
+    border-radius: 4px;
+    width: 60px;
+    color: rgb(20, 68, 25);
+    margin-left: 5px;
+}
+
+select {
+    background-color:white;
+    border-radius: 4px;
+    color: rgb(55, 86, 49); 
+}
+
+li {
+    color: rgb(20, 68, 25);
+}
+
+li::marker {
+    font-weight: bold;
+}
+
+p {
+    color: rgb(20, 68, 25);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ol {
+    color: rgb(20, 68, 25);
+    padding-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
