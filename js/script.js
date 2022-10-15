@@ -12,6 +12,7 @@ const formHasChildren = document.querySelector("#hasChildren");
 const formSubmit = document.querySelector("#registerMember"); 
 const formMember = document.querySelector("#member");
 
+const formTotalMembers = document.querySelector("#amountMembers");
 
 function validateMember(event){
     event.preventDefault();
@@ -31,6 +32,17 @@ function validateMember(event){
         `A new member is now registered!`;
         
     }
+
+    {for(i = 0; i < data.length; i++){
+        formOutput.innerHTML += `<li>${data[i].firstName} 
+            ${data[i].surname}</li> `;
+    }
+
+    
+    }
+
+    formTotalMembers.innerHTML = `Total members: 
+        <span>${data.length} </span>`;
 
     })
     

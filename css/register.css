@@ -42,3 +42,16 @@ button {
     border-radius: 4px;
     color: rgb(55, 86, 49); 
 }
+
+a:link {
+  color: rgb(34, 67, 34); 
+}
+
+a:visited {
+  color: rgb(34, 67, 34);
+}
+
+a:hover {
+  
+  color: rgb(88, 129, 80); 
+}

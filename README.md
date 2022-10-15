@@ -1,3 +1,5 @@
+<head><link el="styleSheet" href="../css/index.css"></head>
+
 # **Final Assignment - FrontEnd 1**
 
 This Markdown file will explain how this program works and how it was created. It will also mention possible future improvements, but to start with, it will explain how to get this program started.
@@ -14,30 +16,76 @@ Download this repository by either forking it or clone it into to your own accou
 
 Open index.html with Live Server.
 
+``` Final-Assignment
+        -> css
+            # grouping.css
+            # index.css
+            # members.css
+            # readme.css
+            # register.css
+
+        -> html
+            <> grouping.html
+            <> index.html
+            <> members.html
+            <> readme.html
+            <> register.html
+        -> img
+           |§| LiveServer.png
+        -> js
+            JS grouping.js
+            JS markdown.js
+            JS members.js
+            JS script.js
+        {} members.json
+        ⓘ README.md
+```
+
 ## Program description
 
 On the starting page when opening the index.html file the user will have the option to choose between four different options.
 
-1. Register a new member 
+1. Register a new member
 2. Check members
 3. Create groups
 4. README.md
 
 ### **1. Register a new member**
 
-When the user choose to "Register a new member" they will be redirected to a form where they can input information about a new member. 
+When the user choose to "Register a new member" they will be redirected to a form where they can input information about a new member. All fields needs to be filled to be able to register a new member. If the e-mail address is already registered on another member, the user will be informed about the existing member and and asked to input another email.
 
-### **3. Check members**
+When all information is correctly inputted the user can submit the information and a new object of the user will be saved into the members.json file.
 
+Afterwards the user can input more users or Return to the main paige.  
 
+### ***2. Check members**
+
+When the user press the button "Check members", they will be redirected to a paige which lists all current members and shows clearly how many members are registered.
+
+There are a few future possibilities to improve this page which will be further discussed in the Future improvements chapter below.
 
 ### **3. Create groups**
 
-When the user choose to "Create groups", they will be redirected to a page where they have the option to choose which premises the groups should be based on. 
+When the user choose to "Create groups", they will be redirected to a page where they have the option to choose which premises the groups should be based on.
 
-### 4. README.md
+The groups can be based on the members:
 
+* Age
+* Personality type (red, blue, green, yellow)
+* Work status
+* Relationship status (grouped by below pairing)
+  * Single & Separated
+  * In a relationship, Engaged & Married
+  * Divorced & Widowed
+* Family status (if they have children)
 
+After an attribute has been chosen, the user must write how many people should be put into each group. The minimum value the user can input is 2 people per group and the maximum amount is half of the total amount of members. If the total amount of members is uneven the maximum value is half of the total amount of members and rounded up to avoid having 1 person alone in a group.
+
+Only after groups have been created the user can use the button to show all the groups or if they want, input the group index to just show the requested group members.
+
+### **4. README.md**
+
+When pressing the README.md button the user will be redirected to a webpage where this file has been converted to a HTML file and if they wish they can download the document locally.
 
 ### Problemformulering (dokumentera problem)
 Formulera ett eller flera problem som du tänker lösa, med egna ord. Problemformuleringen får gärna bli teknisk, men ska utgå från en läsare som inte har några kunskaper om kod. Det går även bra att rikta sig till en läsare inom ett speciellt område (specialintressen, yrken, barn, eller vad som helst). Utgå från en potentiell läsare med minimala förkunskaper och förtydliga och fördjupa dig i det tekniska successivt. 

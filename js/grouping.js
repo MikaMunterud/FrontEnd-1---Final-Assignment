@@ -25,10 +25,7 @@ const familyChecked = document.querySelector("#attribute5").checked;
     <span>${data.length} </span>`;
 
     /* This sets the max value for inputting how many people should be
-    ** placed in each group. The value here cannot be higher than half
-    ** the value of the total amount of members. If the total amount of
-    ** members are uneven, (total members)/ 2 will be rounded up tp avoid
-    ** having 1 person end up alone in a group. 
+    ** placed in each group.
     */
     formGrouping.setAttribute("max", Math.ceil(data.length/2));
     
