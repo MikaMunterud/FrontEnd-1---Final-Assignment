@@ -1,0 +1,41 @@
+body {
+    background-color: linen;
+    margin-inline: 50px;
+}
+
+h2 {
+color: rgb(34, 67, 34);
+
+}
+
+h3 {
+    color: rgb(34, 67, 34);
+    margin-left: 10px;
+    }
+li::marker {
+    font-weight: bold;
+}
+
+ol {
+    color: rgb(20, 68, 25);
+    padding-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: rgb(20, 68, 25);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(55, 86, 49); 
+}

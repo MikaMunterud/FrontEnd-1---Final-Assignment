@@ -1,0 +1,44 @@
+body {
+    background-color: linen;
+    margin-inline: 50px;
+  }
+  
+  h1 {
+    color: rgb(34, 67, 34);
+  }
+
+  h2 {
+    color: rgb(34, 67, 34);
+    
+  }
+
+  label {
+    color: rgb(20, 68, 25);
+    font-weight: bold;
+}
+
+  input {
+    background-color:white;
+    border-radius: 4px;
+    width: 120px;
+    color: rgb(20, 68, 25);
+}
+
+  input[type="submit"] {
+    background-color:white;
+    border-radius: 4px;
+    width: 70px;
+    color: rgb(20, 68, 25);
+}
+
+select {
+    background-color:white;
+    border-radius: 4px;
+    color: rgb(55, 86, 49); 
+}
+
+button {
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(55, 86, 49); 
+}

@@ -1,37 +1,43 @@
-# Final Assignment - FrontEnd 1
+# **Final Assignment - FrontEnd 1**
 
 This Markdown file will explain how this program works and how it was created. It will also mention possible future improvements, but to start with, it will explain how to get this program started.
 
-## Setup
+## **Quick Start**
 
-### Step 1
-Download this repository by either 
-Ladda ned det här repot genom att välja "use this template" och skapa ett eget, med ett eget namn.
-Klona det till valfri katalog på din egen dator. Gå in i mappen och kör följande kommandon från terminalen.
-(glöm inte att stå i rätt mapp). 
-```
-    npm install
-    npm run init
-    npm start
-```
+### **Step 1**
 
-### Steg 2
-Surfa till http://localhost:3000 och se om du får ut en lista med användare i konsollen
-Pröva http://localhost:3000/api och kontrollera de olika endpointsen. Testa att hämta både .md filer och användare.
+Download this repository by either forking it or clone it into to your own account. Open the repository in Visual Studio Code and download the extension "Live Server".
 
-### Steg 3 lämna in .jsonfilen som skapats i inlämningsmappen i studentportalen
-När ditt lokala repo fungerar är grupp uppgiften godkänd (för dig personligen, alla i gruppen ska lämna in sin egen fil).
+<p><img src="img/LiveServer.png"></p>
 
-### Steg 4
-Uppgiften är att lösa problem med kod, samt dokumentera både problem och lösning.
-Det problem som jag vill att alla börjar med är att använda den data som finns för att hitta lämpliga grupper att samarbeta i, ställa frågor till eller granska kod. 
+### **Step 2**
 
-### Steg 5
-https://github.com/orgs/GitWebb22/frontend-1_data
-Här finns ett repo där ni kan dela er personliga information, så att andra kan använda er som testpersoner. Byt inte namn på några filer så bör det inte uppstå några konflikter i users mappen.
+Open index.html with Live Server.
 
-## Beskrivning
-Uppgiften består av tre moment. Problemformulering, lösning och dokumentation. 
+## Program description
+
+On the starting page when opening the index.html file the user will have the option to choose between four different options.
+
+1. Register a new member 
+2. Check members
+3. Create groups
+4. README.md
+
+### **1. Register a new member**
+
+When the user choose to "Register a new member" they will be redirected to a form where they can input information about a new member. 
+
+### **3. Check members**
+
+
+
+### **3. Create groups**
+
+When the user choose to "Create groups", they will be redirected to a page where they have the option to choose which premises the groups should be based on. 
+
+### 4. README.md
+
+
 
 ### Problemformulering (dokumentera problem)
 Formulera ett eller flera problem som du tänker lösa, med egna ord. Problemformuleringen får gärna bli teknisk, men ska utgå från en läsare som inte har några kunskaper om kod. Det går även bra att rikta sig till en läsare inom ett speciellt område (specialintressen, yrken, barn, eller vad som helst). Utgå från en potentiell läsare med minimala förkunskaper och förtydliga och fördjupa dig i det tekniska successivt. 

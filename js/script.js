@@ -16,7 +16,7 @@ const formMember = document.querySelector("#member");
 function validateMember(event){
     event.preventDefault();
 
-    fetch("members.json")
+    fetch("../members.json")
     .then((response) => response.json())
     .then((data) => {
 
