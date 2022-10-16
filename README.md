@@ -4,26 +4,30 @@
 
 This Markdown file will explain how this program works and how it was created. It will also mention possible future improvements, but to start with, it will explain how to get this program started.
 
-## **Quick Start**
+This programs main function is to to divide people into groups based on an attribute that the user can choose.
 
-### **Step 1**
+## **1. Quick Start**
 
-Download this repository by either forking it or clone it into to your own account. Open the repository in Visual Studio Code and download the extension "Live Server".
+### **1.1. Step 1**
 
-<p><img src="img/LiveServer.png"></p>
+Download this repository by either forking it or [clone](https://github.com/Mumsizzz/FrontEnd-1---Final-Assignment.git) this link into to your own account. Open the repository in Visual Studio Code and download the extension "Live Server".
 
-### **Step 2**
+![Live Server](img/LiveServer.png)
+
+### **1.2. Step 2**
 
 Open index.html with Live Server.
 
-``` Final-Assignment
+**These are the files included in this repository:**
+
+```css
+    Final-Assignment
         -> css
             # grouping.css
             # index.css
             # members.css
             # readme.css
             # register.css
-
         -> html
             <> grouping.html
             <> index.html
@@ -31,7 +35,7 @@ Open index.html with Live Server.
             <> readme.html
             <> register.html
         -> img
-           |§| LiveServer.png
+             ☐ LiveServer.png
         -> js
             JS grouping.js
             JS markdown.js
@@ -41,7 +45,9 @@ Open index.html with Live Server.
         ⓘ README.md
 ```
 
-## Program description
+## **2. Program structure**
+
+### **2.1. Starting page**
 
 On the starting page when opening the index.html file the user will have the option to choose between four different options.
 
@@ -50,7 +56,30 @@ On the starting page when opening the index.html file the user will have the opt
 3. Create groups
 4. README.md
 
-### **1. Register a new member**
+#### **2.1.1. Relevant files**
+
+```css
+    -> css
+        # index.css
+    -> html
+        <> index.html
+    -> js
+        JS script.js
+```
+
+### **2.2. Register a new member**
+
+#### **2.2.1. Relevant files**
+
+```css
+    -> css
+        # register.css
+    -> html
+        <> register.html
+    -> js
+        JS script.js
+    {} members.json
+```
 
 When the user choose to "Register a new member" they will be redirected to a form where they can input information about a new member. All fields needs to be filled to be able to register a new member. If the e-mail address is already registered on another member, the user will be informed about the existing member and and asked to input another email.
 
@@ -58,13 +87,37 @@ When all information is correctly inputted the user can submit the information a
 
 Afterwards the user can input more users or Return to the main paige.  
 
-### ***2. Check members**
+### **2.3. Check members**
+
+#### **2.3.1. Relevant files**
+
+```css
+    -> css
+        # members.css
+    -> html
+        <> members.html
+    -> js
+        JS members.js
+    {} members.json
+```
 
 When the user press the button "Check members", they will be redirected to a paige which lists all current members and shows clearly how many members are registered.
 
 There are a few future possibilities to improve this page which will be further discussed in the Future improvements chapter below.
 
-### **3. Create groups**
+### **2.4. Create groups**
+
+#### **2.4.1. Relevant files**
+
+```css
+    -> css
+        # grouping.css
+    -> html
+        <> grouping.html
+    -> js
+        JS grouping.js
+    {} members.json
+```
 
 When the user choose to "Create groups", they will be redirected to a page where they have the option to choose which premises the groups should be based on.
 
@@ -83,53 +136,51 @@ After an attribute has been chosen, the user must write how many people should b
 
 Only after groups have been created the user can use the button to show all the groups or if they want, input the group index to just show the requested group members.
 
-### **4. README.md**
+### **2.5. README.md**
+
+#### **2.5.1. Relevant files**
+
+```css
+    -> css
+        # readme.css
+    -> html
+        <> readme.html
+    ⓘ README.md
+```
 
 When pressing the README.md button the user will be redirected to a webpage where this file has been converted to a HTML file and if they wish they can download the document locally.
 
-### Problemformulering (dokumentera problem)
-Formulera ett eller flera problem som du tänker lösa, med egna ord. Problemformuleringen får gärna bli teknisk, men ska utgå från en läsare som inte har några kunskaper om kod. Det går även bra att rikta sig till en läsare inom ett speciellt område (specialintressen, yrken, barn, eller vad som helst). Utgå från en potentiell läsare med minimala förkunskaper och förtydliga och fördjupa dig i det tekniska successivt. 
+## **3. Future improvements**
 
-Det går bra att hålla sig till exemplet med att skapa upp grupper av studenter baserat på den data de (ni) själva lämnat ifrån er. En problemformulering skulle då kunna bestå av tre paragrafer text
+This program has many future improvement possibilities.
 
-1. Problemet beskrivet i allmänhet. Till en läsare som inte arbetar eller studerar på Nackademin.
-2. De specifika förutsättningar och utmaningar som är utgångspunkten för den här lösningen.
-3. Hur ni avser lösa problemet med kod. Det går även bra att argumentera för att problemet inte ska lösas med kod.
+Each component of this program has be analyzed and below follows a few possible future improvements for each part.
 
-Använd www/dev/index.html som startpunk. Det går bra att skapa undersidor och länka dem. Alla sidor utgår från mappen "www/dev" och alla länkar kan göras relativa till den. Filer från data-mappen hämtas via api. Se exempel i script.js. Det behövs alltså bara en script.js om man vill återanvända den på alla sidor (det vill man förmodligen).
-```
-    www/dev
-          |- index.html
-          |- script.js
-          |- example
-             |-index.html
-          |- about
-             |-index.html
-```
-```html
-    <a href="/">Start</a>
-    <a href="/example/">Exempel</a>
-    <a href="about">Info</a>
-    ...
-    <script src="/script.js"></script>
-```
+### **3.1 Register a new member**
+
+The form to register a new member could be further elaborate by making it possible for the user to add their own attributes that they wish for the registered members to have. In this current program, the attributes have been pre-chosen and the user have to input all the chosen information before a new member can be registered and created. By that note the possibility for the user to remove an already chosen attribute could as well be a possible program improvement.
+
+### **3.2 Check members**
+
+This program's page to check the current members is at this moment very basic. To further improve this page, an alternative would be to add a function so the user can edit a current member. Also it could be useful to add a function where the user can remove one or all current members so that they can create a new list with only relevant people for the user.
+
+### **3.3 Create groups**
+
+Creating groups could be further improved by making the dividing of groups more precise. At the moment the function that is used only sorts the current members based on the external attribute. Thereafter the members are splint into groups based on the index of how many people should be placed in each group. This means that at this moments there is no guarantee that the grouping is fully precise.
+
+Another improvement could be to make it possible for the user to download the list of members and their groups after they have created them. THis will make it easier for the user to use the outcome of this program and share the groupings to relevant people.
+
+### **3.4 README.md**
+
+This current way of reading the information in this README.md file in the webb browser could be improved. At the moment this README.md file has been converted into a html file and isn't linked to the actual file. An improvement of this program could be to link and render this file to the html file so if any information would be updated, it will automatically be updated on the webb browser.
 
 ### Lös problemet
-Skriv kod som löser problemet du formulerat ovan. Lösningen ska kunna demonstreras på index.html eller någon undersida genom att köra kod skriven i javascript. Utgå från script.js, men det går bra att skapa ytterligare filer, och att skriva javascript i script-taggar direkt på sidorna, om det fungerar bäst. Kommentera koden så att en kollega kan följa vad som händer när koden körs. Utgå från din egen kunskapsnivå när du skriver kommentarer. 
+
+Skriv kod som löser problemet du formulerat ovan. Lösningen ska kunna demonstreras på index.html eller någon undersida genom att köra kod skriven i javascript. Utgå från script.js, men det går bra att skapa ytterligare filer, och att skriva javascript i script-taggar direkt på sidorna, om det fungerar bäst. Kommentera koden så att en kollega kan följa vad som händer när koden körs. Utgå från din egen kunskapsnivå när du skriver kommentarer.
 
 ### Teknisk dokumentation
+
 Byt ut filen README.md till en fil du skrivit själv. Syftet med den tekniska dokumentationen är att beskriva vad din kod gör, och hur en annan utvecklare kan göra för att använda din lösning. Utgå från din egen kunskapsnivå och försök inleda med en så kortfattad beskrivning som möjligt av problemet. Exempel:
 _This code will create groups of users based on how compatible their respective zodiac-signs are._
 
 Beskriv sedan vilka steg en utvecklare behöver gå igenom för att nå samma resultat, samt vilka delar (om några) som kan modifieras.
-
-## Examination
-Uppgiften lämnas in genom att examinatorn bjuds in till repot, samt att repot sparas som .zip-fil och lämnas in i studentportalen senast 19e oktober 2022, 23:59.
-
-
-## Uppslag till alternativa problem att lösa
-Om man inte vill fördjupa sig i gruppindelning går det bra att formulera ett eget problem och lösa det. Nedan finns några uppslag som man kan använda.
-* Funktionen publishSecure i src/node/f_f_data/publish.js borde kunna användas till att skapa anonymiserad data. Kan man bygga ett gränssnitt för exemelvis kursutvärderingar med det?
-* Går det att hacka filerna ovan, så att man kan ändra i dem utan att syns för upphovspersonen?
-* Kan man använda teknik liknande highlight.js för att känna igen tekniska termer i exempelvis kursplanen?
-* Kan man använda uppgifterna 1-18 och skapa ett sätt för studenter att slutföra uppgifterna och sedan be en annan student att granska sin lösning? Som ett sätt att hålla koll på hur man ligger till kunskapsmässigt.

@@ -14,16 +14,14 @@
 
     <form id="member"></form>
     <!-- <label for="firstName">First Name</label> -->
-    <p><input type="text" name="firstName" id="firstName" placeholder="First Name"
-    oninvalid="invalidInput(this);" oninput="invalidInput(this);" required="required"></p>
+    <input type="text" name="firstName" id="firstName" placeholder="First Name"
+     required="required"><br><br>
 
     <!-- <p><label for="surname">Surname</label></p> -->
-    <p><input type="text" name="surname" id="surname" placeholder="Surname"
-        oninvalid="invalidInput(this);"  oninput="invalidInput(this);"></p>
+    <input type="text" name="surname" id="surname" placeholder="Surname"><br><br>
 
     <!-- <p><label for="email">E-mail</label></p> -->
-    <p><input type="email" name="email" id="email" placeholder="E-mail"
-        oninvalid="invalidInput(this);"  oninput="invalidInput(this);"></p>
+    <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
 
     <p><label for="birthDate">Date of birth</label></p> 
     <input type="date" name="birthDate" id="birthDate" required>
@@ -61,7 +59,7 @@
         <option value="no">No</option>
     </select></p>
 
-    <input id="registerMember" type="submit" value="Submit">
+    <button  id="registerMember" type="submit">Submit</button>
     </form>
 
     <a href="index.html">

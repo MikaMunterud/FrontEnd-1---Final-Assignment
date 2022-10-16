@@ -14,6 +14,7 @@ const formMember = document.querySelector("#member");
 
 const formTotalMembers = document.querySelector("#amountMembers");
 
+
 function validateMember(event){
     event.preventDefault();
 
@@ -72,7 +73,7 @@ function addMember(event){
     ${relationshipStatus} 
     ${hasChildren}`);
 
-/*
+
     // this stores data in a JavaScript object.
     data = {
         "firstName":firstName,
@@ -87,8 +88,6 @@ function addMember(event){
     
     // This converts Javascript object to JSON
     member.innerText = JSON.stringify(data);
-*/
-
 }
 
 function invalidInput(event) {
@@ -108,4 +107,3 @@ function invalidInput(event) {
 
 return true;
 }
-
