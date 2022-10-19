@@ -1,74 +1,71 @@
 body {
-    background-color: linen;
-    margin-inline: 50px;
+  background-color: linen;
+  margin-inline: 50px;
 }
 
 h2 {
   color: rgb(34, 67, 34);
-  
 }
 
 h3 {
-    color: rgb(34, 67, 34);
+  color: rgb(34, 67, 34);
 }
 
 h4 {
   color: rgb(20, 68, 25);
-  
+
   width: 200px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 button {
-    background-color: white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
-    width: 95px;
-    margin-right: 5px;
-    margin-left: 0px;
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 95px;
+  margin-right: 5px;
+  margin-left: 0px;
 }
 button[id="return"] {
-    background-color: white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
-    width: 165px;
-    margin-right: 5px;
-    margin-left: 0px;
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 165px;
+  margin-right: 5px;
+  margin-left: 0px;
 }
 
 input[id="createGroups"] {
-    background-color:white;
-    border-radius: 4px;
-    width: 105px;
-    color: rgb(20, 68, 25);
+  background-color: white;
+  border-radius: 4px;
+  width: 105px;
+  color: rgb(20, 68, 25);
 }
 
 input[type="number"] {
-    background-color:white;
-    border-radius: 4px;
-    width: 55px;
-    color: rgb(20, 68, 25);
-    
+  background-color: white;
+  border-radius: 4px;
+  width: 55px;
+  color: rgb(20, 68, 25);
+  margin-right: 8px;
 }
+
 span {
-    text-decoration: underline;
-    font-weight: bold;
+  font-weight: bold;
+}
+
+span[id="totalMembers"] {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 p {
-    color: rgb(20, 68, 25);
-    margin-top: 5px;
-    margin-bottom: 5px;
+  color: rgb(20, 68, 25);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-/*
-#outputGroups {
-    position: absolute;
-    float: right;
-    top: 50px;
-    right: 50px;
-    padding: 50 px;
-    border-style: dotted;
+div {
+  margin-top: 15px;
 }
-*/

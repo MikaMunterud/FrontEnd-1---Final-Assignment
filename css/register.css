@@ -1,50 +1,53 @@
 body {
-    background-color: linen;
-    margin-inline: 50px;
-  }
-  
-  h1 {
-    color: rgb(34, 67, 34);
-  }
-
-  h2 {
-    color: rgb(34, 67, 34);
-    
-  }
-
-  label {
-    color: rgb(20, 68, 25);
-    font-weight: bold;
+  background-color: linen;
+  margin-inline: 50px;
 }
 
-  input {
-    background-color:white;
-    border-radius: 4px;
-    width: 120px;
-    color: rgb(20, 68, 25);
+h1 {
+  color: rgb(34, 67, 34);
 }
 
-  input[type="submit"] {
-    background-color:white;
-    border-radius: 4px;
-    width: 70px;
-    color: rgb(20, 68, 25);
+h2 {
+  color: rgb(34, 67, 34);
+}
+
+h3 {
+  color: rgb(34, 67, 34);
+}
+
+label {
+  color: rgb(20, 68, 25);
+  font-weight: bold;
+}
+
+input {
+  background-color: white;
+  border-radius: 4px;
+  width: 120px;
+  color: rgb(20, 68, 25);
+}
+
+input[type="submit"] {
+  background-color: white;
+  border-radius: 4px;
+  width: 70px;
+  color: rgb(20, 68, 25);
 }
 
 select {
-    background-color:white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
 }
 
 button {
-    background-color: white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
 }
 
 a:link {
-  color: rgb(34, 67, 34); 
+  color: rgb(34, 67, 34);
 }
 
 a:visited {
@@ -52,6 +55,20 @@ a:visited {
 }
 
 a:hover {
-  
-  color: rgb(88, 129, 80); 
+  color: rgb(88, 129, 80);
+}
+span[name="errorMsg"] {
+  font-size: 12px;
+  color: rgb(199, 21, 21);
+}
+
+span[id="totalMembers"] {
+  color: rgb(20, 68, 25);
+  font-weight: bold;
+  text-decoration: underline;
+}
+p[id="output"] {
+  color: rgb(20, 68, 25);
+  font-weight: bold;
+  font-size: 20px;
 }

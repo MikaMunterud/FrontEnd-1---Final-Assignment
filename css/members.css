@@ -1,41 +1,83 @@
 body {
-    background-color: linen;
-    margin-inline: 50px;
+  background-color: linen;
+  margin-inline: 50px;
 }
 
 h2 {
-color: rgb(34, 67, 34);
-
+  color: rgb(34, 67, 34);
 }
 
 h3 {
-    color: rgb(34, 67, 34);
-    margin-left: 10px;
-    }
+  color: rgb(34, 67, 34);
+  margin-left: 10px;
+}
 li::marker {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 ol {
-    color: rgb(20, 68, 25);
-    padding-left: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  color: rgb(20, 68, 25);
+  padding-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
-
+div {
+  margin-top: 15px;
+}
 p {
-    color: rgb(20, 68, 25);
-    margin-top: 10px;
-    margin-bottom: 10px;
+  color: rgb(20, 68, 25);
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 span {
-    text-decoration: underline;
-    font-weight: bold;
+  font-weight: bold;
+}
+
+span[id="totalMembers"] {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 button {
-    background-color: white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 110px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+button[id="return"] {
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 165px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+button[id="deleteMembers"] {
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 120px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+button[id="retrieveMembers"] {
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
+  width: 182px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+
+input[type="number"] {
+  background-color: white;
+  border-radius: 4px;
+  width: 55px;
+  color: rgb(20, 68, 25);
+  margin-right: 8px;
 }

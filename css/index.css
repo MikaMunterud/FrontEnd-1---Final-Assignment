@@ -1,21 +1,20 @@
 body {
-    background-color: linen;
-    margin-inline: 50px;
-  }
-  
-  h1 {
-    color: rgb(34, 67, 34);
-    text-align: center;
-  }
+  background-color: linen;
+  margin-inline: 50px;
+}
 
-  button {
-    background-color: white;
-    border-radius: 4px;
-    color: rgb(55, 86, 49); 
-   
+h1 {
+  color: rgb(34, 67, 34);
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  border-radius: 4px;
+  color: rgb(55, 86, 49);
 }
 
 #defineProblem {
-    color: rgb(20, 68, 25);
-    text-align: justify;
+  color: rgb(20, 68, 25);
+  text-align: justify;
 }

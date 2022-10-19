@@ -9,9 +9,8 @@
 <body>
 
     <h2>Group settings</h2>
-    
 
-    <h3 id="noMembers"></h3>
+    <p id="noMembers"></p>
 
     <h4>Choose which attribute the groups should be based on:</h4>
 
@@ -32,6 +31,9 @@
             <input type="radio" name=" attribute" id="attribute5" value="familyStatus"> 
             <label for="attribute4">Family status</label></p>  
         <p> 
+            <input type="radio" name=" attribute" id="attribute6" value="Random"> 
+            <label for="attribute4">Random</label></p>  
+        <p> 
         
         <h4>Choose how many people should be in each group:</h4>
 
@@ -39,18 +41,18 @@
             max="halfMembers" placeholder="index">
         </p>
         
-        <input id="createGroups" type="submit" value="Create Groups">
+        <input id="createGroups" type="submit" value="Create groups">
     </form>
 
     <p id="outputMessage"></p>
 
-    <button id="showGroups" onsubmit="return checkForm(this);">Show groups</button>
+    <button id="showGroups">Show groups</button><button id="clearGroups">Hide groups</button>
 
     <p id="outputGroups"></p>
 
     <button id="showGroup">Show group</button> <input type="number" 
         name="groupNumber" id="groupNumber" min="1" max="noOfGroups" 
-        placeholder="index"></p>
+        placeholder="index"><button id="clearGroup">Hide group</button></p>
 
     <p id="outputGroup"></p>
 
@@ -58,9 +60,6 @@
         <a href="index.html">
             <button id="return">Return to main page</button>
         </a></p>
-   
-
-   
 
 <script src="../js/grouping.js"></script>
 </body>

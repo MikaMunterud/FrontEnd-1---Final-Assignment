@@ -1,122 +1,122 @@
 [
-    {
-        "firstName":"Tony",
-        "surname":"Stark",
-        "email":"tony.stark@avengers.com",
-        "birthDate":"1970-05-29",
-        "personalityType":"Red",
-        "hasJob":"Yes",
-        "relationshipStatus":"Married",
-        "hasChildren":"Yes"
-    },
-    {
-        "firstName":"Peter",
-        "surname":"Parker",
-        "email":"peter.parker@avengers.com",
-        "birthDate":"2002-05-17",
-        "personalityType":"Yellow",
-        "hasJob":"No",
-        "relationshipStatus":"Single",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Black",
-        "surname":"Widow",
-        "email":"black.widow@avengers.com",
-        "birthDate":"1984-11-22",
-        "personalityType":"Blue",
-        "hasJob":"Yes",
-        "relationshipStatus":"Widowed",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Nick",
-        "surname":"Fury",
-        "email":"nick.fury@avengers.com",
-        "birthDate":"1951-05-27",
-        "personalityType":"Red",
-        "hasJob":"Yes",
-        "relationshipStatus":"Married",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"War",
-        "surname":"Machine",
-        "email":"war.machine@avengers.com",
-        "birthDate":"1968-10-08",
-        "personalityType":"Red",
-        "hasJob":"Yes",
-        "relationshipStatus":"Separated",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Bruce",
-        "surname":"Banner",
-        "email":"bruce.banner@avengers.com",
-        "birthDate":"1969-12-18",
-        "personalityType":"Blue",
-        "hasJob":"No",
-        "relationshipStatus":"Separated",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Ant",
-        "surname":"Man",
-        "email":"ant.man@avengers.com",
-        "birthDate":"1969-10-08",
-        "personalityType":"Yellow",
-        "hasJob":"No",
-        "relationshipStatus":"In a relationship",
-        "hasChildren":"Yes"
-    },
-    {
-        "firstName":"Hawk",
-        "surname":"Eye",
-        "email":"hawk.eye@avengers.com",
-        "birthDate":"1971-01-07",
-        "personalityType":"Green",
-        "hasJob":"No",
-        "relationshipStatus":"Married",
-        "hasChildren":"Yes"
-    },
-    {
-        "firstName":"Stephen",
-        "surname":"Strange",
-        "email":"stephen.strange@avengers.com",
-        "birthDate":"1976-03-22",
-        "personalityType":"Red",
-        "hasJob":"No",
-        "relationshipStatus":"Single",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Chadwick",
-        "surname":"Boseman",
-        "email":"chadwick.boseman@avengers.com",
-        "birthDate":"1976-06-18",
-        "personalityType":"Green",
-        "hasJob":"Yes",
-        "relationshipStatus":"Single",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Sam",
-        "surname":"Wilson",
-        "email":"sam.wilson@avengers.com",
-        "birthDate":"1978-02-14",
-        "personalityType":"Green",
-        "hasJob":"No",
-        "relationshipStatus":"Single",
-        "hasChildren":"No"
-    },
-    {
-        "firstName":"Peter",
-        "surname":"Quill",
-        "email":"peter.quill@avengers.com",
-        "birthDate":"1980-08-01",
-        "personalityType":"Yellow",
-        "hasJob":"No",
-        "relationshipStatus":"In a relationship",
-        "hasChildren":"No"
-    }
+  {
+    "firstName": "Tony",
+    "surname": "Stark",
+    "email": "tony.stark@avengers.com",
+    "birthDate": "1970-05-29",
+    "personalityType": "Red",
+    "hasJob": "Yes",
+    "relationshipStatus": "Engaged",
+    "hasChildren": "Yes"
+  },
+  {
+    "firstName": "Peter",
+    "surname": "Parker",
+    "email": "peter.parker@avengers.com",
+    "birthDate": "2002-05-17",
+    "personalityType": "Yellow",
+    "hasJob": "No",
+    "relationshipStatus": "Single",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Black",
+    "surname": "Widow",
+    "email": "black.widow@avengers.com",
+    "birthDate": "1984-11-22",
+    "personalityType": "Blue",
+    "hasJob": "Yes",
+    "relationshipStatus": "Widowed",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Nick",
+    "surname": "Fury",
+    "email": "nick.fury@avengers.com",
+    "birthDate": "1951-05-27",
+    "personalityType": "Red",
+    "hasJob": "Yes",
+    "relationshipStatus": "Married",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "War",
+    "surname": "Machine",
+    "email": "war.machine@avengers.com",
+    "birthDate": "1968-10-08",
+    "personalityType": "Red",
+    "hasJob": "Yes",
+    "relationshipStatus": "Separated",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Bruce",
+    "surname": "Banner",
+    "email": "bruce.banner@avengers.com",
+    "birthDate": "1969-12-18",
+    "personalityType": "Blue",
+    "hasJob": "No",
+    "relationshipStatus": "Separated",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Ant",
+    "surname": "Man",
+    "email": "ant.man@avengers.com",
+    "birthDate": "1969-10-08",
+    "personalityType": "Yellow",
+    "hasJob": "No",
+    "relationshipStatus": "In a relationship",
+    "hasChildren": "Yes"
+  },
+  {
+    "firstName": "Hawk",
+    "surname": "Eye",
+    "email": "hawk.eye@avengers.com",
+    "birthDate": "1971-01-07",
+    "personalityType": "Green",
+    "hasJob": "No",
+    "relationshipStatus": "Married",
+    "hasChildren": "Yes"
+  },
+  {
+    "firstName": "Stephen",
+    "surname": "Strange",
+    "email": "stephen.strange@avengers.com",
+    "birthDate": "1976-03-22",
+    "personalityType": "Red",
+    "hasJob": "No",
+    "relationshipStatus": "Single",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Chadwick",
+    "surname": "Boseman",
+    "email": "chadwick.boseman@avengers.com",
+    "birthDate": "1976-06-18",
+    "personalityType": "Green",
+    "hasJob": "Yes",
+    "relationshipStatus": "Divorced",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Sam",
+    "surname": "Wilson",
+    "email": "sam.wilson@avengers.com",
+    "birthDate": "1978-02-14",
+    "personalityType": "Green",
+    "hasJob": "No",
+    "relationshipStatus": "Single",
+    "hasChildren": "No"
+  },
+  {
+    "firstName": "Peter",
+    "surname": "Quill",
+    "email": "peter.quill@avengers.com",
+    "birthDate": "1980-08-01",
+    "personalityType": "Yellow",
+    "hasJob": "No",
+    "relationshipStatus": "In a relationship",
+    "hasChildren": "No"
+  }
 ]

@@ -10,53 +10,53 @@
 
     <h2>Register a new member</h2>
 
-    <h3 id="amountMembers"></h3>
+    <p id="amountMembers"></p>
 
     <form id="member"></form>
-    <!-- <label for="firstName">First Name</label> -->
-    <input type="text" name="firstName" id="firstName" placeholder="First Name"
-     required="required"><br><br>
 
-    <!-- <p><label for="surname">Surname</label></p> -->
-    <input type="text" name="surname" id="surname" placeholder="Surname"><br><br>
+    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+    <span name="errorMsg" id="errorFirstName"></span><br><br>
 
-    <!-- <p><label for="email">E-mail</label></p> -->
-    <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+    <input type="text" name="surname" id="surname" placeholder="Surname">
+    <span name="errorMsg" id="errorSurname"></span><br><br>
+
+    <input type="email" name="email" id="email" placeholder="E-mail" required>
+    <span name="errorMsg" id="errorEmail"></span><br>
 
     <p><label for="birthDate">Date of birth</label></p> 
-    <input type="date" name="birthDate" id="birthDate" required>
+    <input type="date" name="birthDate" id="birthDate">
+    <span name="errorMsg" id="errorBirthDate"></span><br>
 
     <p><label for="personalityType"><a href="https://www.utbildning.se/inspiration/kunskapstest/disc-test-14839" 
         target="_blank">Personality Type</a></label></p>
     <select name="personalityType" id="personalityType" required>
-        <option value="red">Red</option>
-        <option value="blue">Blue</option>
-        <option value="green">Green</option>
-        <option value="yellow">Yellow</option>
+        <option value="Red">Red</option>
+        <option value="Blue">Blue</option>
+        <option value="Green">Green</option>
+        <option value="Yellow">Yellow</option>
     </select>
     
-
     <p><label for="hasJob">Do you work?</label></p>
     <select name="hasJob" id="hasJob" required>
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
     </select>
 
     <p><label for="relationshipStatus">Relationship Status</label></p> 
     <select name="relationshipStatus" id="relationshipStatus" required>
-        <option value="single">Single</option>
-        <option value="inARelationship">In a relationship</option>
-        <option value="engaged">Engaged</option>
-        <option value="married">Married</option>
-        <option value="separated">Separated</option>
-        <option value="divorced">divorced</option>
-        <option value="widowed">Widowed</option>
+        <option value="Single">Single</option>
+        <option value="InARelationship">In a relationship</option>
+        <option value="Engaged">Engaged</option>
+        <option value="Married">Married</option>
+        <option value="Separated">Separated</option>
+        <option value="Divorced">divorced</option>
+        <option value="Widowed">Widowed</option>
     </select>
 
     <p><label for="hasChildren">Do you have children?</label></p> 
     <p><select name="hasChildren" id="hasChildren">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
     </select></p>
 
     <button  id="registerMember" type="submit">Submit</button>
@@ -65,13 +65,7 @@
     <a href="index.html">
         <button>Return to main page</button>
     </a>
-    
 
-    <p id="formMsgFalse"></p>
-    <p id="formMsgTrue" onselect="addMember()"></p>
-
-    
-
-<script src="../js/script.js"></script>
+<script src="../js/register.js"></script>
 </body>
 </html>
